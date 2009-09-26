@@ -8,9 +8,9 @@
 ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(include "opengl-header.scm")
-(include "glu-header.scm")
-(include "glut-header.scm")
+(include "opengl_.scm")
+(include "glu_.scm")
+(include "glut_.scm")
 
 
 

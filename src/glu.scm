@@ -9,8 +9,8 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
-(include "opengl-header.scm")
-(include "glu-header.scm")
+(include "opengl_.scm")
+(include "glu_.scm")
 
 (define gluBeginCurve (c-lambda (GLUnurbs* ) void "gluBeginCurve"))
 (define gluBeginPolygon (c-lambda (GLUtesselator* ) void "gluBeginPolygon"))
