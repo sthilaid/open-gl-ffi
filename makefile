@@ -13,7 +13,7 @@ INCLUDE_FILES=opengl_.scm glu_.scm glut_.scm
 LIB_FILES=opengl.o1 glu.o1 glut.o1
 
 CCOPTS=-I$(GL_INCLUDE)
-LDOPTS=-L$(GL_LIB)
+LDOPTS=-L$(GL_LIB) -lglut
 
 all: prefix include lib
 
